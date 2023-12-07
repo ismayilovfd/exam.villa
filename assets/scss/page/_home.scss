@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+header {
+    .navbar {
+      .container-fluid {
+        a {
+          font-size: 35px;
+          font-style: italic;
+        }
+      }
+    }
+  
+    .header-bg {
+      width: 100%;
+      height: 700px;
+      background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url(https://preview.colorlib.com/theme/villa/img/hero_1.jpg);
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      .header-content {
+        width: 70%;
+        height: 50%;
+        text-align: center;
+  
+        h1 {
+          font-size: 70px;
+          letter-spacing: 2px;
+          font-weight: 600;
+          color: white;
+        }
+  
+        p {
+          font-size: 30px;
+          color: white;
+        }
+  
+        .header-btn {
+          margin-top: 30px;
+  
+          a {
+            text-decoration: none;
+            color: white;
+            margin-left: 20px;
+            padding: 10px 30px;
+            border: 1px solid white;
+            border-radius: 20px;
+          }
+  
+          .oneBTN {
+            background-color: #e61b5d;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+
+
+#you-visit{
+    width: 100%;
+    
+    .youText{
+        margin-bottom: 20px;
+        h5{
+            color: darkgray;
+            font-size: 14px;
+        }
+    }
+
+    .col-xl-3{
+        img{
+            max-width: 100%;
+            margin: 10px 0px;
+        }
+
+        h1{
+            font-size: 18px;
+            margin-top: 15px;
+        }
+        .stars{
+            display: flex;
+            gap: 55px;
+            .star{
+                i{
+                    color: #e61b5d;
+                }              
+            }
+            .starText{
+                p{
+                    color: rgb(190, 182, 182);
+                }
+            }
+        }
+    }
+}
+
+#your-life{
+    col{
+      
+    }
+    h1{
+        font-size: 70px;
+    }
+}
